@@ -1,0 +1,122 @@
+backend:
+  name: github
+  repo: YOUR-USERNAME/YOUR-REPO-NAME  # ← change this after creating GitHub repo
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+# Editorial workflow lets you preview/save drafts before publishing
+publish_mode: simple
+
+collections:
+  # ============================================
+  # PHOTOS — manage individual gallery photos
+  # ============================================
+  - name: "photos"
+    label: "Photos"
+    label_singular: "Photo"
+    folder: ""
+    files:
+      - file: "photos.json"
+        name: "photos_data"
+        label: "Gallery"
+        fields:
+          - label: "Photos"
+            name: "photos"
+            widget: "list"
+            summary: "{{fields.title}} — {{fields.location}}"
+            fields:
+              - {label: "Image", name: "src", widget: "image"}
+              - {label: "Title", name: "title", widget: "string", required: false}
+              - {label: "Location", name: "location", widget: "string"}
+              - {label: "Year", name: "year", widget: "number", value_type: "int", min: 2000, max: 2100}
+              - label: "Category"
+                name: "category"
+                widget: "select"
+                options:
+                  - {label: "Nepal", value: "nepal"}
+                  - {label: "Vietnam", value: "vietnam"}
+                  - {label: "Japan", value: "japan"}
+                  - {label: "Boundary Waters", value: "bwca"}
+                  - {label: "American West", value: "american-west"}
+                  - {label: "Iceland & Norway", value: "iceland-norway"}
+              - label: "Display Size"
+                name: "size"
+                widget: "select"
+                hint: "How big the photo appears in the grid"
+                options:
+                  - {label: "Hero (biggest, 16:10)", value: "hero"}
+                  - {label: "Wide (16:9)", value: "wide"}
+                  - {label: "Large (4:5, half-row)", value: "large"}
+                  - {label: "Medium (4:5, third)", value: "medium"}
+                  - {label: "Tall (3:4)", value: "tall"}
+                  - {label: "Portrait (2:3)", value: "portrait"}
+                  - {label: "Square (1:1)", value: "square"}
+              - label: "Caption"
+                name: "caption"
+                widget: "text"
+                required: false
+                hint: "Shown when visitors click the photo. Leave empty for no caption."
+              - label: "Print URL"
+                name: "printUrl"
+                widget: "string"
+                required: false
+                default: "#"
+                hint: "Link to your print store. Use # as placeholder until you have one."
+              - label: "Featured"
+                name: "featured"
+                widget: "boolean"
+                required: false
+                default: false
+                hint: "Shows 'Print Available' badge and makes this a hero image candidate."
+
+          # SERIES — long-form projects
+          - label: "Series"
+            name: "series"
+            widget: "list"
+            summary: "{{fields.title}}"
+            fields:
+              - {label: "Number", name: "number", widget: "string", hint: "e.g. 01, 02"}
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Subtitle", name: "subtitle", widget: "string"}
+              - {label: "Cover Image", name: "coverImg", widget: "image"}
+              - {label: "Coming Soon", name: "comingSoon", widget: "boolean", default: false}
+              - {label: "URL (optional)", name: "url", widget: "string", required: false}
+
+          # CATEGORY LABELS — display names for filters
+          - label: "Category Labels"
+            name: "categoryLabels"
+            widget: "object"
+            hint: "Friendly names for filter buttons. Keep keys lowercase."
+            fields:
+              - {label: "All", name: "all", widget: "string"}
+              - {label: "Nepal", name: "nepal", widget: "string"}
+              - {label: "Vietnam", name: "vietnam", widget: "string"}
+              - {label: "Japan", name: "japan", widget: "string"}
+              - {label: "Boundary Waters", name: "bwca", widget: "string"}
+              - {label: "American West", name: "american-west", widget: "string"}
+              - {label: "Iceland & Norway", name: "iceland-norway", widget: "string"}
+
+          # SITE TEXT — all the editable copy
+          - label: "Site Text"
+            name: "siteText"
+            widget: "object"
+            fields:
+              - {label: "Hero Meta (top label)", name: "heroMeta", widget: "string"}
+              - label: "Hero Headline"
+                name: "heroHeadline"
+                widget: "text"
+                hint: "Main headline. Use <br> for line breaks and <em>text</em> for italic copper accent."
+              - {label: "Hero Tagline", name: "heroTagline", widget: "text"}
+              - {label: "Work Section Intro", name: "workIntro", widget: "text"}
+              - {label: "Series Section Intro", name: "seriesIntro", widget: "text"}
+              - label: "About — Line 1"
+                name: "aboutLine1"
+                widget: "text"
+                hint: "Use <em>text</em> for italic copper accent."
+              - {label: "About — Line 2", name: "aboutLine2", widget: "text"}
+              - {label: "About — Line 3", name: "aboutLine3", widget: "text"}
+              - {label: "Contact Email", name: "contactEmail", widget: "string"}
+              - {label: "Instagram URL", name: "instagramUrl", widget: "string"}
+              - {label: "Copyright Line", name: "copyright", widget: "string"}

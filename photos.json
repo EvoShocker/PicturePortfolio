@@ -1,0 +1,334 @@
+{
+  "_README": "EDIT THIS FILE TO UPDATE YOUR PORTFOLIO. See README.md for instructions. Anything starting with _ is a comment and ignored by the site.",
+
+  "photos": [
+    {
+      "src": "images/OG0A2466.jpg",
+      "title": "Pokhara, Held in Pink Light",
+      "location": "Pokhara, Nepal",
+      "year": 2024,
+      "category": "nepal",
+      "size": "hero",
+      "caption": "Machapuchare lit up for maybe forty seconds. The rooftops of the city were already in shadow. There's a strange holiness to a mountain that catches light a town can no longer reach.",
+      "printUrl": "#",
+      "featured": true
+    },
+    {
+      "src": "images/OG0A3072.jpg",
+      "title": "Layered, in Blue",
+      "location": "Annapurna Region, Nepal",
+      "year": 2024,
+      "category": "nepal",
+      "size": "large",
+      "caption": "Six ridges, each a slightly paler blue than the one before. The dark roof in the foreground belonged to a teahouse where I'd just had milk tea and watched the sky go from gold to nothing.",
+      "printUrl": "#",
+      "featured": true
+    },
+    {
+      "src": "images/OG0A4913.jpg",
+      "title": "Under the Tracks",
+      "location": "Tokyo, Japan",
+      "year": 2024,
+      "category": "japan",
+      "size": "tall",
+      "caption": "Beneath the Yamanote line, the city becomes something else — pipes and tarps and an old man walking home through a corridor of fluorescent and neon.",
+      "printUrl": "#"
+    },
+    {
+      "src": "images/OG0A4918.jpg",
+      "title": "Van Gogh Vodka",
+      "location": "Asakusa, Tokyo",
+      "year": 2024,
+      "category": "japan",
+      "size": "medium",
+      "caption": "A bar I'll never know the inside of. The lantern was older than the building, probably."
+    },
+    {
+      "src": "images/OG0A1622.jpg",
+      "title": "Stillwater, Last Light",
+      "location": "Boundary Waters, MN",
+      "year": 2023,
+      "category": "bwca",
+      "size": "wide",
+      "caption": "The lake went mirror-still about four minutes before the sun dropped. Twenty miles from the nearest road and you could hear loons from the next bay over.",
+      "printUrl": "#",
+      "featured": true
+    },
+    {
+      "src": "images/OG0A4625.jpg",
+      "title": "The Bridge, with Lilies",
+      "location": "Vietnam",
+      "year": 2025,
+      "category": "vietnam",
+      "size": "large",
+      "caption": "The dog had claimed the bridge. I waited for it to move and it never did. The lilies were doing their own thing entirely.",
+      "printUrl": "#",
+      "featured": true
+    },
+    {
+      "src": "images/OG0A4565.jpg",
+      "title": "Pagoda, with Sleeping Dog",
+      "location": "Ninh Binh, Vietnam",
+      "year": 2025,
+      "category": "vietnam",
+      "size": "portrait",
+      "caption": "The temple was empty. The dog had been there long enough that the staff had stopped trying to move him."
+    },
+    {
+      "src": "images/OG0A4392.jpg",
+      "title": "Ironworks, Reclaimed",
+      "location": "Vietnam",
+      "year": 2025,
+      "category": "vietnam",
+      "size": "medium",
+      "caption": "An abandoned brick structure beside a river, with cable cars running overhead. Modernity literally floating above what time forgot.",
+      "printUrl": "#"
+    },
+    {
+      "src": "images/OG0A1741.jpg",
+      "title": "Window Within a Window",
+      "location": "Pokhara, Nepal",
+      "year": 2024,
+      "category": "nepal",
+      "size": "wide",
+      "caption": "I noticed the reflection only after I'd walked past the building. I went back. The geometry repeats — windows behind glass behind windows — for as long as you keep looking.",
+      "printUrl": "#",
+      "featured": true
+    },
+    {
+      "src": "images/Entering_Zion_wilderness_Landscape.jpg",
+      "title": "Entering Zion Wilderness",
+      "location": "Zion National Park, UT",
+      "year": 2023,
+      "category": "american-west",
+      "size": "large",
+      "caption": "The sign was the only thing in the foreground for a quarter mile. The cliffs behind it had been there for two hundred million years.",
+      "printUrl": "#"
+    },
+    {
+      "src": "images/Rubble_Covered_Road.jpg",
+      "title": "Road, Returning",
+      "location": "Southern Utah",
+      "year": 2023,
+      "category": "american-west",
+      "size": "medium",
+      "caption": "A road the desert is patiently un-making. The yellow line was still visible. The grasses had already won.",
+      "printUrl": "#"
+    },
+    {
+      "src": "images/wyoming_telphone_distanbce.jpg",
+      "title": "Wires Through the Red Rock",
+      "location": "Wyoming",
+      "year": 2023,
+      "category": "american-west",
+      "size": "wide"
+    },
+    {
+      "src": "images/OG0A3270.jpg",
+      "title": "Annapurna Base Camp",
+      "location": "Annapurna Sanctuary, Nepal",
+      "year": 2024,
+      "category": "nepal",
+      "size": "tall",
+      "caption": "Four days walking up. The blue tents in the distance were where we'd sleep. The grass had already turned for winter.",
+      "printUrl": "#"
+    },
+    {
+      "src": "images/OG0A2868.jpg",
+      "title": "Threshold",
+      "location": "Annapurna Region, Nepal",
+      "year": 2024,
+      "category": "nepal",
+      "size": "portrait",
+      "caption": "Hotel Superview. The hiker paused for half a second in the doorway and the prayer flags were still. Behind it all, Machapuchare doing what it does.",
+      "printUrl": "#",
+      "featured": true
+    },
+    {
+      "src": "images/OG0A4312.jpg",
+      "title": "Light, Through Wires",
+      "location": "Vietnam",
+      "year": 2025,
+      "category": "vietnam",
+      "size": "tall",
+      "caption": "Crepuscular rays through the storm clouds, telephone wires cutting through them, a small boat full of salt or rice or something white. I stood in the water until the light moved.",
+      "printUrl": "#"
+    },
+    {
+      "src": "images/OG0A2424.jpg",
+      "title": "From the Window, Pokhara",
+      "location": "Pokhara, Nepal",
+      "year": 2024,
+      "category": "nepal",
+      "size": "tall"
+    },
+    {
+      "src": "images/OG0A3453.jpg",
+      "title": "Fishtail, Final Light",
+      "location": "Annapurna Base Camp, Nepal",
+      "year": 2024,
+      "category": "nepal",
+      "size": "medium",
+      "caption": "Machapuchare means 'fishtail.' Climbing it is forbidden — the summit is sacred to Shiva. From base camp, you understand why.",
+      "printUrl": "#"
+    },
+    {
+      "src": "images/OG0A3161.jpg",
+      "title": "Crimson and Gold",
+      "location": "Annapurna Sanctuary, Nepal",
+      "year": 2024,
+      "category": "nepal",
+      "size": "medium",
+      "caption": "The flag was new. The mountain was being lit by a sun that had already set on the village below.",
+      "printUrl": "#"
+    },
+    {
+      "src": "images/OG0A4860.jpg",
+      "title": "Nakamise, in Bloom",
+      "location": "Asakusa, Tokyo",
+      "year": 2024,
+      "category": "japan",
+      "size": "wide",
+      "caption": "The same street my grandparents would have walked. The blossoms are a week old and already starting to fall."
+    },
+    {
+      "src": "images/OG0A5864.jpg",
+      "title": "The Small Shrine",
+      "location": "Kōyasan, Japan",
+      "year": 2024,
+      "category": "japan",
+      "size": "tall",
+      "caption": "Found just off the path, mostly forgotten. A mesh strainer, a paper tag, a small offering. Whoever tends to it does so when no one is watching.",
+      "printUrl": "#"
+    },
+    {
+      "src": "images/OG0A5016.jpg",
+      "title": "Roofline, with Birds",
+      "location": "Kyoto, Japan",
+      "year": 2024,
+      "category": "japan",
+      "size": "medium"
+    },
+    {
+      "src": "images/OG0A5361-2.jpg",
+      "title": "The Tree Above the Stones",
+      "location": "Kyoto, Japan",
+      "year": 2024,
+      "category": "japan",
+      "size": "portrait",
+      "caption": "A cemetery on a hill above Kyoto. The tower in the distance has been there sixty years; the tree, much longer; the stones, longer still.",
+      "printUrl": "#"
+    },
+    {
+      "src": "images/OG0A2116_-_Copy.jpg",
+      "title": "HOTEL",
+      "location": "Thamel, Kathmandu",
+      "year": 2024,
+      "category": "nepal",
+      "size": "tall",
+      "caption": "One street lamp, one neon sign, a thousand wires. The whole block looked like this.",
+      "printUrl": "#"
+    },
+    {
+      "src": "images/OG0A8846-2.jpg",
+      "title": "Defender, in Lava Field",
+      "location": "Highlands, Iceland",
+      "year": 2023,
+      "category": "iceland-norway",
+      "size": "wide",
+      "caption": "Someone's expedition didn't end well. The rocks on the dashboard suggested it had been there a while.",
+      "printUrl": "#"
+    },
+    {
+      "src": "images/OG0A8894.jpg",
+      "title": "Frostastaðavatn",
+      "location": "Highlands, Iceland",
+      "year": 2023,
+      "category": "iceland-norway",
+      "size": "medium",
+      "caption": "The light moved fast here. By the time I'd recomposed, the cloud bank had crossed half the valley."
+    },
+    {
+      "src": "images/OG0A9297.jpg",
+      "title": "Bergen, From Above",
+      "location": "Mt. Fløyen, Norway",
+      "year": 2023,
+      "category": "iceland-norway",
+      "size": "wide"
+    },
+    {
+      "src": "images/OG0A9555.jpg",
+      "title": "Way Marked",
+      "location": "Norway",
+      "year": 2023,
+      "category": "iceland-norway",
+      "size": "square",
+      "caption": "Red poles to keep you on the path when the snow comes."
+    },
+    {
+      "src": "images/OG0A3563.jpg",
+      "title": "From the Valley Floor",
+      "location": "Pokhara, Nepal",
+      "year": 2024,
+      "category": "nepal",
+      "size": "tall"
+    }
+  ],
+
+  "series": [
+    {
+      "number": "01",
+      "title": "Annapurna",
+      "subtitle": "Nepal — 2024",
+      "coverImg": "images/OG0A2466.jpg",
+      "comingSoon": false,
+      "url": "#"
+    },
+    {
+      "number": "02",
+      "title": "Reclamation",
+      "subtitle": "Vietnam, USA — 2023→",
+      "coverImg": "images/OG0A4625.jpg",
+      "comingSoon": true
+    },
+    {
+      "number": "03",
+      "title": "American West",
+      "subtitle": "Coming 2026",
+      "coverImg": "images/Entering_Zion_wilderness_Landscape.jpg",
+      "comingSoon": true
+    },
+    {
+      "number": "04",
+      "title": "Boundary Waters",
+      "subtitle": "Coming 2026",
+      "coverImg": "images/OG0A1622.jpg",
+      "comingSoon": true
+    }
+  ],
+
+  "categoryLabels": {
+    "all": "All Work",
+    "nepal": "Nepal",
+    "vietnam": "Vietnam",
+    "japan": "Japan",
+    "bwca": "Boundary Waters",
+    "american-west": "American West",
+    "iceland-norway": "Iceland & Norway"
+  },
+
+  "siteText": {
+    "_comment": "Edit these to change the wording on your site",
+    "heroMeta": "Field Notes — Vol. I",
+    "heroHeadline": "Light, water,<br>and the long<br><em>edges of places.</em>",
+    "heroTagline": "Photography from the Annapurnas, the American West, the Boundary Waters, and wherever the light lands quietly.",
+    "workIntro": "A working archive — moments collected across continents and seasons, arranged not by place but by feel. Click any image to read its notes.",
+    "seriesIntro": "Bodies of work that demanded their own chapter. More to come as the archive grows.",
+    "aboutLine1": "I'm Cade. I photograph <em>large expanses</em> and small reclamations — the places where light lands gently and where nature is patiently outlasting whatever we built.",
+    "aboutLine2": "The work moves between two registers: <em>the cinematic</em> — alpenglow on Himalayan peaks, golden hour on northern lakes — and <em>the archaeological</em> — moss on stone, brick reclaimed by jungle, the quiet evidence of time. Both, I think, are the same story told twice.",
+    "aboutLine3": "Limited edition prints available. Open to editorial, brand, and licensing collaborations.",
+    "contactEmail": "hello@cade.photo",
+    "instagramUrl": "https://instagram.com",
+    "copyright": "© 2026 Cade Photography"
+  }
+}
